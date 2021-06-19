@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: lightblue;
+    background-image: linear-gradient(
+        rgba(97,47,18,0.692),
+        rgba(97,47,18,0.692)
+    ),url(images/4.jpg);
+    /* mask-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
+}
+.navber{
+    height: 10%;
+    display:flex;
+}
+.nav-left{
+    flex-basis: 30%;
+    background: white;
+    position: relative;
+}
+.nav-icons{
+    left: 5%;
+    top: 10%;
+    position: absolute;
+}
+.nav-icons ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+.nav-icons ul li i{
+    color: gainsboro;
+}
+.nav-right{
+    flex-basis: 70%;
+
+}
+.nav-menu{
+    top: 5%;
+    right: 2%;
+    position: absolute;
+}
+.nav-menu ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+.nav-menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.logo{
+    font-family: 'Pacifico', cursive !important;
+    font-size: 35px;
+}
+.content{
+    display: flex;
+    height: 90%;
+
+}
+.con-left{
+    flex-basis: 30%;
+    background: white;
+    position: relative;
+}
+.con-right{
+    flex-basis: 70%;
+    position: relative;
+}
+.displa{
+    left: -20%;
+    bottom: 10%;
+    position: absolute;
+}
+.displa img{
+    height: 50%;
+    width: 98%;
+}
+.trxt p{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+}
+.trxt h1{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+}
+.trxt{
+    right: 10%;
+    bottom: 15%;
+    position: absolute;
+}
+.nav-sosil ul li{
+    background: gray;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+.nav-sosil ul li i{
+    color: white;
+    list-style: none;
+}
+.nav-sosil{
+    bottom: 5%;
+    position: absolute;
+}
